@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+     background: rgba(247, 247, 160, 0.733);
+}
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 5px 4px black;
+}
+.logo img{
+    width: 150px;
+    height: 160px;
+    border-radius: 35%;
+    
+}
+.nav a{
+    margin-top: 1rem;
+}
+.nav a{
+    padding: 1rem;
+    margin: 60px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(1, 75, 233);
+}
+.nav a:hover{
+    color: rgba(28, 28, 133, 0.603);
+}
+.products{
+     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    margin: 50px;
+    display: grid;
+    padding: 1rem;
+    border-radius:5px;
+    border: none;
+    box-shadow: 1px 4px 3px black;
+    width: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.product{
+     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    margin: 30px;
+    padding: 1rem;
+    border-radius:5px;
+    border: none;
+    box-shadow: 1px 4px 3px 2px black;
+    width: 250px;
+    text-align: center;
+    justify-content: space-between;
+}
+.product img{
+     width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 5px;
+}
+.cloth-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    justify-content: center;
+}
+.clothes{
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    margin: 30px;
+    padding: 1rem;
+    border-radius:5px;
+    border: none;
+    box-shadow: 1px 4px 3px black;
+    width: 250px;
+    text-align: center;
+    justify-content: space-between;
+}
+.clothes img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.shoe-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    justify-content: center;
+}
+.shoes{
+     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    margin: 30px;
+    padding: 1rem;
+    border-radius:5px;
+    border: none;
+    box-shadow: 1px 4px 3px black;
+    width: 250px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.shoes img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background:rgba(247, 247, 160, 0.733);
+    box-shadow: 1px 4px 3px black;
+}
+
+ .slider {
+      width: 700px;
+      height: 400px;
+      overflow: hidden;
+      border-radius: 10px;
+      position: relative;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin: 160PX;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%;
+      transition: transform 0.8s ease-in-out;
+    }
+
+    .slides img {
+      width: 700px;
+      height: 400px;
+      object-fit: cover;
+    }

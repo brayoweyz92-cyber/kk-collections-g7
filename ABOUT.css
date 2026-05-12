@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(247,247,160,0.733);
+    font-size: large;
+}
+
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 5px 4px black;
+}
+h1{
+    color: blue;
+
+}
+
+h2{
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: rgb(50%, 30%, 50%);
+    color: red;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.temp{
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+.shoes{
+ 
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    justify-content: left;
+}
+.close{
+    margin: 25px;
+    padding: 1rem;
+   border-radius: 10px;
+    width: 250px;
+    height: auto;
+     box-shadow: 1px 5px 4px black;
+}
+.closed{
+     border-radius: 10px;
+    width: 250px;
+    height: auto;
+    box-shadow: 1px 5px 4px black;
+   
+}
+img{
+    width: 150px;
+    height: 160px;
+    border-radius: 35%;
+    text-align: center;
+
+
+}
+.foot  h3{
+    background-color: rgb(35, 35, 190);
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
